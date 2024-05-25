@@ -75,7 +75,7 @@ const Register = () => {
         } catch (error) {
             toast.error("Something went wrong!");
             setLoading(false);
-            console.log(err);
+            console.log(error);
         }
     }
 

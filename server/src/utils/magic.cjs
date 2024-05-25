@@ -6,6 +6,7 @@ let magic;
 
 try {
   magic = new Magic(process.env.MAGIC_SECRET_KEY);
+  console.log('magic working')
 } catch (error) {
   console.error("❌ Error inside magic init:", error);
   throw error;
