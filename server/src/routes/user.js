@@ -8,4 +8,8 @@ router.get("/data", authMiddleware, getUserData);
 router.post("/feedback", authMiddleware, feedbackHandler);
 router.get("/analytics", authMiddleware, analyticsHandler);
 
+router.get('/check', (req, res) => {
+    res.json({ message: 'CORS check successful' });
+});
+
 export default router;
