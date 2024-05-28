@@ -11,13 +11,6 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8082;
 
-
-import authRoutes from "./auth.js";
-
-const router = express.Router();
-
-router.use("/auth", authRoutes);
-
 app.use(compression());
 app.use(
   helmet.contentSecurityPolicy({
