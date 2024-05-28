@@ -34,6 +34,10 @@ app.options('*', cors(corsOptions)); // Handle preflight requests
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
 
 // Define routes below
 app.get("/", (req, res) => {
