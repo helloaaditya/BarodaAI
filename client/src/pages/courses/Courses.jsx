@@ -57,7 +57,7 @@ const Courses = () => {
                     <div className='mt-8 w-full py-4 md:pr-2 flex flex-wrap gap-2 justify-start overflow-y-auto courses-con'>
                         {filteredCourses?.map((course, index) => {
                             return <ListItem key={index} className="py-2 px-2 sm:py-4 sm:px-4 h-min-16 
-                                bg-dblue hover:bg-dhblue hover:text-black " onClick={() => navigate("/app/course/" + course.courseId)}>
+                                bg-dblue hover:bg-orange-500 hover:text-black " onClick={() => navigate("/app/course/" + course.courseId)}>
                                 <ListItemPrefix>
                                     <BookOpenIcon className="h-5 w-5 text-blue-400" />
                                 </ListItemPrefix>

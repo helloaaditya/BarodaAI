@@ -22,7 +22,7 @@ const Quizzes = () => {
                     <div className="mt-8 w-full py-4 md:pr-2 flex flex-wrap gap-2 justify-start overflow-y-auto quizzes-con h-full">
                         <List className="list-disc md:pl-8 w-full">
                             {user?.quizzes?.map((quiz, index) => (
-                                <ListItem key={index} onClick={()=>navigate("/app/quiz/"+quiz.quizId)} className='text-xl py-2 px-2 sm:py-4 sm:px-4 h-min-16 bg-dteal hover:bg-dhteal hover:text-black'>{quiz.title}</ListItem>
+                                <ListItem key={index} onClick={()=>navigate("/app/quiz/"+quiz.quizId)} className='text-xl py-2 px-2 sm:py-4 sm:px-4 h-min-16 bg-dteal hover:bg-orange-500 hover:text-black'>{quiz.title}</ListItem>
                             ))}
                             { user?.quizzes?.length === 0 && <p className="text-xl justify-self-center content-center">No quizzes found!</p>}
                         </List>

@@ -33,9 +33,9 @@ const Dashboard = () => {
               <img src={dtopic} alt="image" loading="lazy" />
             </div>
 
-            <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Explore Brodra's AI</h1>
+            <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Explore <span className='text-orange-500'>Brodra's</span>AI</h1>
             <p className='text-lg md:text-xl pt-4'>Discover new topics tailored to you with Brodra's AI-powered learning generator</p>
-            <Button className='hidden lg:block mt-8  font-medium text-sm' onClick={() => navigate("/app/generate")}>Generate</Button>
+            <Button className='hidden lg:block mt-8 bg-orange-500 font-medium text-sm' onClick={() => navigate("/app/generate")}>Generate</Button>
           </Card>
           <div className=' flex flex-col w-full h-full basis-3/5'>
             <Card className=" bg-dshcard hover:bg-dteal transition duration-500 mb-4 p-6 h-60 md:h-2/4 quiz flex flex-row justify-between items-center">

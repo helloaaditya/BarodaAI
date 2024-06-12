@@ -17,6 +17,7 @@ import mdb from '../../assets/icons/mongodb.svg'
 import palm from '../../assets/icons/palm.svg'
 import discord from '../../assets/icons/discord.svg'
 import github from '../../assets/icons/github.svg'
+import hackathon from '../../assets/icons/A1-without-text-DWmuMNkC1.png'
 import isLogged from '../../services/logged'
 import { motion } from 'framer-motion';
 import AOS from "aos";
@@ -46,7 +47,7 @@ const Landing = () => {
       <Navbar className="nav-con max-w-7xl">
         <div className="container mx-auto flex items-center justify-between ">
           <img src={appLogo} alt="logo" className='w-20' />
-          <Button size="md" className="bg-cblack font-medium text-sm hover:shadow-sd rounded-md" onClick={() => navigate("/login")}>
+          <Button size="md" className="bg-orange-500 font-medium text-sm hover:shadow-sd rounded-md" onClick={() => navigate("/login")}>
             Sign In
           </Button>
         </div>
@@ -104,7 +105,7 @@ const Landing = () => {
               </p>
             </div>
             <div className="feature-subhead text-xl md:text-2xl py-4 px-4 lg:px-0 text-cblack text-left">
-Enhance your learning experience with Brodra's AI-powered assistance. Generate and explore topics, gain comprehensive knowledge, and accelerate your learning journey with AI-driven insights.            </div>
+              Enhance your learning experience with Brodra's AI-powered assistance. Generate and explore topics, gain comprehensive knowledge, and accelerate your learning journey with AI-driven insights.            </div>
           </div>
         </div>
       </section>
@@ -155,6 +156,7 @@ Enhance your learning experience with Brodra's AI-powered assistance. Generate a
         <p className=" text-4xl md:text-5xl lg:text-7xl text-center md:pt-2 ">Powered By</p>
         <section className='py-5 md:py-10 w-full max-w-7xl'>
           <div className="flex flex-col md:flex-row justify-between items-center flex-wrap grow">
+          <img data-aos="fade-up" data-aos-duration="1300" src={hackathon} alt="Hackathon" className="w-[50%] md:w-[25%] company transition-all duration-300 cursor-pointer filter grayscale bg-transparent hover:grayscale-0" />
             <img data-aos="fade-up" data-aos-duration="700" src={palm} alt="PaLM 2" className="w-[50%] md:w-[25%] company transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" />
             <img data-aos="fade-up" data-aos-duration="1000" src={mdb} alt="MongoDB" className="w-[50%] md:w-[25%] company transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" />
             <img data-aos="fade-up" data-aos-duration="1300" src={gcp} alt="Google Cloud" className="w-[50%] md:w-[25%] company transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" />
@@ -168,7 +170,7 @@ Enhance your learning experience with Brodra's AI-powered assistance. Generate a
         <p className="text-xl md:text-2xl py-4 px-4 lg:px-0 text-cblack text-center">
           Join our community to grow and study with other members
         </p>
-        <a href="https://discord.gg/Ne58SwxSR9" target='_blank'>
+        <a href="https://discord.gg/u9tWBcXU" target='_blank'>
           <Button size="md" className="bg-cblack font-medium text-sm hover:shadow-sd rounded-md">
             Join Us
           </Button>
@@ -184,8 +186,8 @@ Enhance your learning experience with Brodra's AI-powered assistance. Generate a
             ©2023 Lern
           </p> */}
           <div className="flex gap-4">
-            <a href="https://github.com/anomic30/Lern"><img src={github} alt="github" className='w-8 cursor-pointer' /></a>
-            <a href="https://discord.gg/Ne58SwxSR9"><img src={discord} alt="discord" className='w-8 cursor-pointer' /></a>
+            <a href="https://github.com/helloaaditya/"><img src={github} alt="github" className='w-8 cursor-pointer' /></a>
+            <a href="https://discord.gg/u9tWBcXU"><img src={discord} alt="discord" className='w-8 cursor-pointer' /></a>
           </div>
         </div>
       </footer>
