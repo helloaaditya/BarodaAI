@@ -71,9 +71,9 @@ const Generate = () => {
             <div className="flex flex-wrap h-screen">
                 <div className="relative w-full lg:w-1/2 md:w-2/3 px-4">
                     <h1 className="text-2xl md:text-3xl lg:text-5xl">Generate</h1>
-                    {isGenerating? <p className="text-md md:text-1xl lg:text-2xl mt-2">Generating course, stay tuned...</p>:showCourse ?
+                    {isGenerating? <p className="text-md md:text-1xl lg:text-2xl mt-2">Generating Resource, stay tuned...</p>:showCourse ?
                         <p className="text-md md:text-1xl lg:text-2xl mt-2">Here is your generated course!</p> :
-                        <p className="text-md md:text-1xl lg:text-2xl mt-2">What do you want to learn today?</p>
+                        <p className="text-md md:text-1xl lg:text-2xl mt-2">Discover new interests with Brodra's personalized learning topics: What's on your learning agenda today?</p>
                     }
                     {isGenerating ? <div className="flex-1 flex flex-col justify-center items-center mt-10 md:mt-0">
                         <Player autoplay loop src={hourglass} className='md:w-[80%] lg:w-[90%]' />

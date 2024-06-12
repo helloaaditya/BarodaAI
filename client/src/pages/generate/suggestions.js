@@ -1,29 +1,11 @@
 export const suggestions = [
     {
-        name: "Artificial Intelligence",
+        name: "Introducation Of Bank Of Brodra",
     },
     {
-        name: "Genetics",
+        name: "Services Of BOB",
     },
     {
-        name: "Quantum Computing",
-    },
-    {
-        name: "Cybersecurity",
-    },
-    {
-        name: "Physics",
-    },
-    {
-        name: "Blockchain",
-    },
-    {
-        name: "Neuroscience",
-    },
-    {
-        name: "Cloud Computing",
-    },
-    {
-        name: "Robotics",
+        name: "How to open a saving account in BOB",
     },
 ]

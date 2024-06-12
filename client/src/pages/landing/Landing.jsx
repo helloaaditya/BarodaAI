@@ -59,14 +59,16 @@ const Landing = () => {
               Learn <span className='text-4xl md:text-5xl lg:text-7xl text-cblue'>Anything</span>,
             </p>
             <p className="text-4xl md:text-5xl lg:text-7xl ">
-              <span className='text-4xl md:text-5xl lg:text-7xl text-cpink'>Anytime</span>, <span className='text-4xl md:text-5xl lg:text-7xl text-cteal'>Anywhere</span>
+              <span className='text-4xl md:text-5xl lg:text-7xl text-cpink'>Anytime</span>, <span className='text-4xl md:text-5xl lg:text-7xl text-cteal'>Anywhere with</span>
+            </p>
+            <p className="text-4xl md:text-5xl lg:text-7xl"><span className='text-4xl md:text-5xl lg:text-7xl text-orange-500'>Brodra</span>
             </p>
           </div>
           <div className="hero-subhead text-2xl text-center md:text-left text-cblack">
-            Experience a customized learning journey that adapts to your unique needs and empowers you to excel in any subject.
+            Embark on a personalized learning journey with Brodra that adapts to your unique needs, empowering you to excel in any subject.
           </div>
           <div className="w-full hero-btn flex items-center justify-center md:justify-start gap-5">
-            <Button size="md" className="bg-cblack font-medium text-sm hover:shadow-sd" onClick={() => navigate("/login")}>
+            <Button size="md" className="bg-orange-500 font-medium text-sm hover:shadow-sd" onClick={() => navigate("/login")}>
               Start Learning
             </Button>
             <a href="https://discord.gg/Ne58SwxSR9" target='_blank' className='text-cblack no-underline'>
@@ -95,13 +97,14 @@ const Landing = () => {
               <p className="text-3xl md:text-4xl lg:text-5xl">
                 <span className="text-3xl md:text-4xl lg:text-5xl text-cblue">Learn</span> with
               </p>
+              <p className="text-3xl md:text-4xl lg:text-5xl"><span className='text-3xl md:text-4xl lg:text-5xl text-cblue text-orange-500'>Brodra</span>
+            </p>
               <p className="text-3xl md:text-4xl lg:text-5xl">
                 AI <span className="text-3xl md:text-4xl lg:text-5xl text-cblue">assistance</span>
               </p>
             </div>
             <div className="feature-subhead text-xl md:text-2xl py-4 px-4 lg:px-0 text-cblack text-left">
-              Enhance your learning experience by harnessing the power of AI. Generate and explore topics with AI, gain comprehensive knowledge and insights to accelerate your learning journey.
-            </div>
+Enhance your learning experience with Brodra's AI-powered assistance. Generate and explore topics, gain comprehensive knowledge, and accelerate your learning journey with AI-driven insights.            </div>
           </div>
         </div>
       </section>

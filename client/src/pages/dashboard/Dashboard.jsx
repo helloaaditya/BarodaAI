@@ -33,15 +33,15 @@ const Dashboard = () => {
               <img src={dtopic} alt="image" loading="lazy" />
             </div>
 
-            <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Explore New Topics</h1>
-            <p className='text-lg md:text-xl pt-4'>Generate new topic of your choice using our AI powered topic generator.</p>
+            <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Explore Brodra's AI</h1>
+            <p className='text-lg md:text-xl pt-4'>Discover new topics tailored to you with Brodra's AI-powered learning generator</p>
             <Button className='hidden lg:block mt-8  font-medium text-sm' onClick={() => navigate("/app/generate")}>Generate</Button>
           </Card>
           <div className=' flex flex-col w-full h-full basis-3/5'>
             <Card className=" bg-dshcard hover:bg-dteal transition duration-500 mb-4 p-6 h-60 md:h-2/4 quiz flex flex-row justify-between items-center">
               <div >
-                <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Quiz Yourself</h1>
-                <p className='text-lg md:text-xl pt-4'>Test your knowledge by playing chapter specific quizzes</p>
+                <h1 className="text-2xl md:text-3xl 2xl:text-5xl">Quiz Your FinOps IQ</h1>
+                <p className='text-lg md:text-xl pt-4'>Take chapter-specific quizzes to test your banking knowledge</p>
                 <Button className='hidden lg:block mt-8 bg-cteal font-medium text-sm hover:shadow-tsd' onClick={() => navigate("/app/quizzes")}>Test</Button>
               </div>
               <div className='flex '>
