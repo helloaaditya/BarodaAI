@@ -87,8 +87,8 @@ const Register = () => {
         <Toaster/>
             <div className='auth-con '>
                 <div className='left-con'>
-                <img src={appLogo} alt="logo" className='w-24 lg:w-30 self-start cursor-pointer' onClick={()=>navigate("/")}/>
-                    <Card color="transparent" shadow={false} >
+                <img src={appLogo} alt="logo" className='w-32 lg:w-60 self-start cursor-pointer' onClick={() => navigate("/")}/>
+                <Card color="transparent" shadow={false} >
                         <Typography variant="h4" color="blue-gray" >
                             Sign Up
                         </Typography>
@@ -117,7 +117,7 @@ const Register = () => {
                         </form>
                     </Card>
                     <p className='text-center text-gray-500 text-xs'>
-                        &copy;2023 Lern
+                        &copy;2024 Baroda Academy
                     </p>
                 </div>
                 <div className='right-con'>

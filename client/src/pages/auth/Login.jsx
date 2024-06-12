@@ -79,7 +79,7 @@ const Login = () => {
                 //checking if user exists
                 const checkResp = await Axios.post(APP_SERVER + "/api/auth/check", { email: email });
                 if (!await checkResp.data.status) {
-                    toast("Please register first!", {icon: '⚠️'});
+                    toast("Please register first!", { icon: '⚠️' });
                     setLoading(false);
                     return navigate("/register");
                 }
@@ -121,7 +121,7 @@ const Login = () => {
             <Toaster />
             <div className='auth-con '>
                 <div className='left-con'>
-                    <img src={appLogo} alt="logo" className='w-24 lg:w-30 self-start cursor-pointer' onClick={() => navigate("/")} />
+                    <img src={appLogo} alt="logo" className='w-32 lg:w-60 self-start cursor-pointer' onClick={() => navigate("/")} />
                     <Card color="transparent" shadow={false} >
 
                         <Typography variant="h4" color="blue-gray" >

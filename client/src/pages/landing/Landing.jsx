@@ -44,14 +44,16 @@ const Landing = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.2 }}
       className='Landing'>
-      <Navbar className="nav-con max-w-7xl">
-        <div className="container mx-auto flex items-center justify-between ">
-          <img src={appLogo} alt="logo" className='w-20' />
-          <Button size="md" className="bg-orange-500 font-medium text-sm hover:shadow-sd rounded-md" onClick={() => navigate("/login")}>
-            Sign In
-          </Button>
-        </div>
-      </Navbar>
+     <Navbar className="nav-con max-w-7xl h-16">
+  <div className="container mx-auto flex items-center justify-between h-full">
+    <img src={appLogo} alt="logo" className='max-h-10 lg:max-h-28' />
+    <Button size="md" className="bg-orange-500 font-medium text-sm hover:shadow-sd rounded-md" onClick={() => navigate("/login")}>
+      Sign In
+    </Button>
+  </div>
+</Navbar>
+
+
 
       <section className='mt-10 py-10 px-6 md:py-15 md:px-8 xl:py-28 xl:px-10 flex flex-col md:flex-row max-w-7xl bg-slate-50 rounded-xl'>
         <div className="flex flex-1 items-center justify-center md:justify-start flex-col gap-10 md:pr-10 xl:pr-20">
@@ -62,17 +64,17 @@ const Landing = () => {
             <p className="text-4xl md:text-5xl lg:text-7xl ">
               <span className='text-4xl md:text-5xl lg:text-7xl text-cpink'>Anytime</span>, <span className='text-4xl md:text-5xl lg:text-7xl text-cteal'>Anywhere with</span>
             </p>
-            <p className="text-4xl md:text-5xl lg:text-7xl"><span className='text-4xl md:text-5xl lg:text-7xl text-orange-500'>Brodra</span>
+            <p className="text-4xl md:text-5xl lg:text-7xl"><span className='text-4xl md:text-5xl lg:text-7xl text-orange-500'>Baroda</span>
             </p>
           </div>
           <div className="hero-subhead text-2xl text-center md:text-left text-cblack">
-            Embark on a personalized learning journey with Brodra that adapts to your unique needs, empowering you to excel in any subject.
+            Embark on a personalized learning journey with Baroda that adapts to your unique needs, empowering you to excel in any subject.
           </div>
           <div className="w-full hero-btn flex items-center justify-center md:justify-start gap-5">
             <Button size="md" className="bg-orange-500 font-medium text-sm hover:shadow-sd" onClick={() => navigate("/login")}>
               Start Learning
             </Button>
-            <a href="https://discord.gg/Ne58SwxSR9" target='_blank' className='text-cblack no-underline'>
+            <a href="https://discord.gg/u9tWBcXU" target='_blank' className='text-cblack no-underline'>
               <Button size="md" variant="outlined" className="text-cblack font-medium text-sm hover:shadow-sd rounded-md border border-cblack">
                 Join Us
               </Button>
@@ -98,14 +100,14 @@ const Landing = () => {
               <p className="text-3xl md:text-4xl lg:text-5xl">
                 <span className="text-3xl md:text-4xl lg:text-5xl text-cblue">Learn</span> with
               </p>
-              <p className="text-3xl md:text-4xl lg:text-5xl"><span className='text-3xl md:text-4xl lg:text-5xl text-cblue text-orange-500'>Brodra</span>
+              <p className="text-3xl md:text-4xl lg:text-5xl"><span className='text-3xl md:text-4xl lg:text-5xl text-cblue text-orange-500'>Baroda</span>
             </p>
               <p className="text-3xl md:text-4xl lg:text-5xl">
                 AI <span className="text-3xl md:text-4xl lg:text-5xl text-cblue">assistance</span>
               </p>
             </div>
             <div className="feature-subhead text-xl md:text-2xl py-4 px-4 lg:px-0 text-cblack text-left">
-              Enhance your learning experience with Brodra's AI-powered assistance. Generate and explore topics, gain comprehensive knowledge, and accelerate your learning journey with AI-driven insights.            </div>
+              Enhance your learning experience with Baroda's AI-powered assistance. Generate and explore topics, gain comprehensive knowledge, and accelerate your learning journey with AI-driven insights.            </div>
           </div>
         </div>
       </section>
@@ -181,10 +183,10 @@ const Landing = () => {
       <hr className="w-full my-8 border-gray-200" />
       <footer className="w-full bg-white p-4 max-w-7xl">
         <div className="flex flex-row flex-wrap items-center justify-between gap-y-6 gap-x-12 text-center md:justify-between">
-          <img src={appLogo} alt="logo-ct" className="w-20" />
-          {/* <p className="">
-            ©2023 Lern
-          </p> */}
+          <img src={appLogo} alt="logo-ct" className="w-24" />
+          <p className="">
+            ©2024 Baroda Academy 
+          </p>
           <div className="flex gap-4">
             <a href="https://github.com/helloaaditya/"><img src={github} alt="github" className='w-8 cursor-pointer' /></a>
             <a href="https://discord.gg/u9tWBcXU"><img src={discord} alt="discord" className='w-8 cursor-pointer' /></a>
